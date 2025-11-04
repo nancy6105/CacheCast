@@ -75,25 +75,4 @@ public class WeatherService {
         return weather;
     }
 
-
-    // public Weather getWeather(String city) {
-    //     // 1. First check in MySQL
-    //     Optional<Weather> cachedWeather = weatherRepository.findByCity(city);
-    //     if (cachedWeather.isPresent()) {
-    //         return cachedWeather.get();
-    //     }
-
-    //     // 2. Fetch from OpenWeather API
-    //     String url = apiUrl + "?q=" + city + "&appid=" + apiKey + "&units=metric";
-    //     Weather response = restTemplate.getForObject(url, Weather.class);
-
-    //     // 3. Save into MySQL
-    //     if (response != null) {
-    //         response.setCity(city);  // make sure city is set before saving
-    //         weatherRepository.save(response);
-    //     }
-
-    //     return response;
-    // }
-
 }

@@ -69,5 +69,25 @@ public class OpenWeatherResponse {
     public void setWeather(List<WeatherInfo> weather) {
         this.weather = weather;
     }
+    private Wind wind;
+
+    public Wind getWind() {
+        return wind;
+    }
+
+    public void setWind(Wind wind) {
+        this.wind = wind;
+    }
     
+    public static class Wind {
+    private double speed;
+
+    public double getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(double speed) {
+        this.speed = speed;
+        }
+    }
 }

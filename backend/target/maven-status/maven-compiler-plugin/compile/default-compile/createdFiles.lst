@@ -1,0 +1,11 @@
+com\example\backend\dto\OpenWeatherResponse$Wind.class
+com\example\backend\config\RedisConfig.class
+com\example\backend\repository\WeatherRepository.class
+com\example\backend\entity\Weather.class
+com\example\backend\service\WeatherService.class
+com\example\backend\controller\WeatherController.class
+com\example\backend\dto\OpenWeatherResponse$WeatherInfo.class
+com\example\backend\BackendApplication.class
+com\example\backend\dto\OpenWeatherResponse.class
+com\example\backend\service\WeatherMapper.class
+com\example\backend\dto\OpenWeatherResponse$Main.class

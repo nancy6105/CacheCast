@@ -1,0 +1,8 @@
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\BackendApplication.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\config\RedisConfig.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\controller\WeatherController.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\dto\OpenWeatherResponse.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\entity\Weather.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\repository\WeatherRepository.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\service\WeatherMapper.java
+C:\PROJECTS\CacheCast\backend\src\main\java\com\example\backend\service\WeatherService.java

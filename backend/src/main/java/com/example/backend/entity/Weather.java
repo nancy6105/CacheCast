@@ -21,18 +21,19 @@ public class Weather {
     private Integer humidity;
     private String description;
     private LocalDateTime fetchedAt;
-
+    private double windSpeed;
 
     private Long externalCityId;
     
 
-    public Weather(String city, double temperature, int humidity, String description, LocalDateTime fetchedAt, Long externalCityId ) {
+    public Weather(String city, double temperature, int humidity, String description, LocalDateTime fetchedAt, Long externalCityId, double windSpeed) {
         this.city = city;
         this.temperature = temperature;
         this.humidity = humidity;
         this.description = description;
         this.fetchedAt = fetchedAt;
         this.externalCityId = externalCityId;
+        this.windSpeed = windSpeed;
     }
 
     public Weather() {
@@ -94,4 +95,11 @@ public class Weather {
         this.externalCityId = externalCityId;
     }
     
+    public double getWindSpeed() {
+        return windSpeed;
+    }
+
+    public void setWindSpeed(double windSpeed) {
+        this.windSpeed = windSpeed;
+    }
 }
